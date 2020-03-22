@@ -114,3 +114,21 @@ header span {
         left: 80%;
     }
 }
+
+/* adjusting media querries */
+
+@media only screen and (max-width: 600px) {
+    .pads {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pads>div {
+        height: 40px;
+        width: 40px;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 50%;
+        transition: 1s ease;
+    }
+}
