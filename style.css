@@ -18,13 +18,63 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color:white;
        
 }
 header h1{
-   margin-top: 100px;
    color:black;
    font-size:45px;
+   margin-top: -200px;
 }
 
-header 
+header p{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-weight: bold;
+
+}
+
+header span{
+    color:rgb(20, 160, 165)
+}
+
+.pads{
+   display: flex;
+   
+}
+
+.pads > div{
+    height: 100px;
+    width:100px;
+    margin:2rem;
+    padding:4rem;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+.pads > div:hover{
+    cursor: pointer;
+    box-shadow: 10px 1px 100px 10px white;
+    
+}
+.pad1{
+    background-color: orangered;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.pad2{
+    background-color: rgb(212, 0, 255);
+}
+.pad3{
+    background-color: rgb(255, 238, 0);
+}
+.pad4{
+    background-color: rgb(4, 0, 255);
+}
+.pad5{
+    background-color: rgba(0, 255, 149, 0.767);
+}
+.pad6{
+    background-color: rgb(99, 73, 64);
+}
