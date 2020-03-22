@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
         });
     });
 
-    const createBubble = index => {
+    const createBubble = (index) => {
         //Create bubbles
         const bubble = document.createElement("div");
         visual.appendChild(bubble);
